@@ -1,0 +1,33 @@
+$gray: #F4F4F4;
+
+body {
+  background: $gray;
+}
+
+.banner {
+  background: red;
+}
+
+p {
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
+
+h1{
+  text-transform: bold;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+h2{
+  font-size: 16px;
+  text-transform: capitalize;
+}
